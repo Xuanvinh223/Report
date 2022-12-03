@@ -2228,7 +2228,7 @@ public class LapHopDong extends javax.swing.JPanel {
             parameters.put("MaHD", maHD);
             parameters.put("MaTD_Chinh", maTD);
             parameters.put("MaTD_Phu", maTDPhu);
-            parameters.put("SUBREPORT_DIR", "src\\com\\happywedding\\Report\\");
+             parameters.put("SUBREPORT_DIR", "src\\com\\happywedding\\Report\\");
             System.out.println(parameters);
             JasperPrint p = JasperFillManager.fillReport(rpt, parameters, con);
             JasperViewer.viewReport(p,false);
